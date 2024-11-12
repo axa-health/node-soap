@@ -18,7 +18,7 @@ export { HttpClient } from './http';
 export { BasicAuthSecurity, BearerSecurity, ClientSSLSecurity, ClientSSLSecurityPFX, NTLMSecurity, WSSecurity, WSSecurityCert, WSSecurityPlusCert } from './security';
 export { Server } from './server';
 export { passwordDigest } from './utils';
-export * from './types';
+export { IOptions, IServerOptions, IServices } from './types';
 export { WSDL } from './wsdl';
 
 type WSDLCallback = (error: any, result?: WSDL) => any;
